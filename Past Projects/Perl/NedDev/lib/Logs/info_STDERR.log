@@ -1,0 +1,3 @@
+Use of uninitialized value $name in string ne at C:\Users\Joey\RefresherTutorials2023\Perl\NedDev\lib\16_STD.pl line 32.
+Please enter a name
+Terminating on signal SIGINT(2)

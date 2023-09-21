@@ -1,0 +1,3 @@
+CREATE DATABASE myshop;
+CREATE DATABASE myhotel;
+CREATE DATABASE myrestaurant;

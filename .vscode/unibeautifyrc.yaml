@@ -1,0 +1,5 @@
+# unibeautifyrc.yaml
+HTML:
+  beautifiers:
+    - JS-Beautify
+    - Pretty Diff

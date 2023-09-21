@@ -1,0 +1,61 @@
+{
+    "protobuf.executablePath": "C:/Users/Zylokai/protoc/bin/protoc.exe",
+    "rust-analyzer.cargo.workspaceFolders": [
+        "C:/Users/Zylokai/RefresherTutorials2023/Rust"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    //"python.formatting.provider": "none",
+    "editor.formatOnSave": true,
+    // "beautify.language": {
+    //     "js": {
+    //         "type": [
+    //             "javascript"
+    //         ],
+    //         "filename": [
+    //             ".jshintrc",
+    //             ".jsbeautifyrc"
+    //         ]
+    //         // "ext": ["js", "json"]
+    //         // ^^ to set extensions to be beautified using the javascript beautifier
+    //     },
+    //     "css": [
+    //         "css",
+    //         "scss"
+    //     ],
+    //     "html": [
+    //         "htm",
+    //         "html",
+    //         "django-html"
+    //     ]
+    //     // ^^ providing just an array sets the VS Code file type
+    // },
+    // "unibeautify.defaultConfig": "C:/Users/Joey/RefresherTutorials2023/.vscode/unibeautifyrc.yaml",
+    // "unibeautify.enabled": true,
+    "[jinja-html]": {
+        "editor.defaultFormatter": "Glavin001.unibeautify-vscode",
+        "editor.formatOnSave": true
+    },
+    // "files.associations": {
+    //     "*.html": "jinja-html"
+    // },
+    // "sqltools.connections": [
+    //     {
+    //         "mysqlOptions": {
+    //             "authProtocol": "default",
+    //             "enableSsl": "Disabled"
+    //         },
+    //         "previewLimit": 50,
+    //         "server": "localhost",
+    //         "port": 3306,
+    //         "driver": "MySQL",
+    //         "name": "FirstMySqlConnection",
+    //         "database": "myshop",
+    //         "username": "sqluser",
+    //         "password": "password"
+    //     }
+    // ],
+    // "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "go.gopath": "C:\\Users\\Joey\\go"
+}

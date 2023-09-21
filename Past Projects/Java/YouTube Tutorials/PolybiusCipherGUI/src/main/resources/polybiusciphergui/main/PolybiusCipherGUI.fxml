@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox spacing="20" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="polybiusciphergui.main.PolybiusCipherController">
+<children>
+    <GridPane alignment="CENTER" hgap="10" vgap="10" style="-fx-padding: 10;">
+        <children>
+            <Label text="Enter a word:"/>
+            <TextArea fx:id="inputTextArea" wrapText="true" prefRowCount="3"/>
+            <Label text="Encrypted / Decrypted:" GridPane.rowIndex="2"/>
+            <TextArea fx:id="outputTextArea" editable="false" wrapText="true" prefRowCount="3" GridPane.rowIndex="3"/>
+            <HBox spacing="10" alignment="CENTER" GridPane.rowIndex="4">
+                <Button text="Encrypt" onAction="#encryptClicked"/>
+                <Button text="Decrypt" onAction="#decryptClicked"/>
+            </HBox>
+        </children>
+    </GridPane>
+</children>
+</VBox>

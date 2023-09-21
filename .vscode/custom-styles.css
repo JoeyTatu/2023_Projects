@@ -1,0 +1,5 @@
+/* Customize terminal colors */
+.monaco-workbench .panel.integrated-terminal .xterm-viewport {
+    background-color: #1E1E1E; /* Background color */
+    color: #F0F0F0; /* Text color */
+  }
