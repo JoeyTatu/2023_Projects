@@ -1,6 +1,11 @@
 go 1.21.1
 
 use (
-	./Go
-	./Go-Api-Tutorial
+	"./Past Projects/Go"
+	"./Past Projects/Go-Api-Tutorial"
+	./GoTemp
+	./GoTemp/api
+	./GoTemp/storage
+	./GoTemp/types
+	./gobank
 )
