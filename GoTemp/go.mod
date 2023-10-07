@@ -8,8 +8,8 @@ replace gotemp/storage => ./storage
 
 replace gotemp/types => ./types
 
-require gotemp/api v0.0.0-00010101000000-000000000000 // indirect
+require gotemp/api v0.0.0-00010101000000-000000000000
 
-require gotemp/storage v0.0.0-00010101000000-000000000000 // indirect
+require gotemp/storage v0.0.0-00010101000000-000000000000
 
 require gotemp/types v0.0.0-00010101000000-000000000000 // indirect
